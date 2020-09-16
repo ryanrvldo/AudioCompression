@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/compressionFragment">
+
+    <fragment
+        android:id="@+id/compressionFragment"
+        android:name="com.ryanrvldo.audiocompression.ui.CompressionFragment"
+        android:label="@string/compression"
+        tools:layout="@layout/fragment_main_layout" />
+    <fragment
+        android:id="@+id/decompressionFragment"
+        android:name="com.ryanrvldo.audiocompression.ui.DecompressionFragment"
+        android:label="@string/decompression"
+        tools:layout="@layout/fragment_main_layout" />
+</navigation>

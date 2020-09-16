@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/compressionFragment"
+            android:icon="@drawable/ic_zip"
+            android:title="@string/compression" />
+        <item
+            android:id="@+id/decompressionFragment"
+            android:icon="@drawable/ic_unzip"
+            android:title="@string/decompression" />
+    </group>
+</menu>

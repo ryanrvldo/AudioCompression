@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Audio Compression</string>
+    <string name="compression">Compression</string>
+    <string name="decompression">Decompression</string>
+    <string name="compress">Compress</string>
+    <string name="choose_file">Choose File</string>
+    <string name="audio_file">Audio File</string>
+    <string name="select_method">Select Method</string>
+    <string name="elias_delta_code">Elias Delta Code</string>
+    <string name="boldi_vigna">Boldi Vigna</string>
+    <string name="save_result">Save Result</string>
+    <string name="decompress">Decompress</string>
+    <string name="error">Error: %s</string>
+    <string name="process_finished">Process is finished</string>
+    <string name="okay">Okay</string>
+    <string name="running_time_result">Running Time: %.4f seconds.</string>
+    <string name="rc_result">Ratio of Compression: %.4f%%</string>
+    <string name="cr_result">Compression Ratio: %.4f.</string>
+    <string name="ss_result">Space Savings: %.4f%%</string>
+    <string name="br_result">Bitrate: %.4f.</string>
+    <string name="something_wrong_process">Sorry, there is something wrong in the process. Error: </string>
+    <string name="dictionary_not_init">dictionaryCodes is not initialized</string>
+    <string name="please_init_audio">Please initialize your audio file.</string>
+    <string name="please_choose_method">Please choose the method first.</string>
+    <string name="result">Result</string>
+    <string name="process">Process</string>
+    <string name="dictionary_file_not_found">Dictionary file is not found. </string>
+    <string name="method_and_file_not_match">The method you choose does not match with the file type that you inputted.</string>
+    <string name="size_result">Size: %,d bytes</string>
+    <string name="please_wait_a_moment">Please wait a moment…</string>
+</resources>

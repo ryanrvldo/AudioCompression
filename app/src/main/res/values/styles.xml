@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+    </style>
+
+    <style name="TextAppearanceHeadline" parent="">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="fontFamily">@font/proza_libre_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CustomExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon">
+        <item name="android:fontFamily">@font/proza_libre_medium</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomChoiceChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="checkedIconTint">@color/colorPrimaryDark</item>
+        <item name="checkedIconVisible">true</item>
+        <item name="chipBackgroundColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.App.Button</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+    </style>
+</resources>
